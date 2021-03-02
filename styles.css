@@ -20,6 +20,8 @@ div#greeting {
   rgba(218, 19, 172, 0.555) 16%, 
   rgba(135, 12, 176, 0.619) 100%);
   overflow: hidden;
+  margin: 35px;
+  box-shadow: 0 14px 6px -6px rgba(119, 119, 119, 0.28);
 }
 
 
