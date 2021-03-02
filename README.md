@@ -7,7 +7,7 @@ Babel Builder is a tower building game where a user must time their placement of
 ### Babel Builder Wireframe:
 ![](./babelbuilder.png)
 
-### Babe lBuilder Wiki:
+### Babel Builder Wiki:
 * [Babel Builder Design Documents](https://github.com/colewendling/BabelBuilder/wiki)
 
 ### MVP List:
