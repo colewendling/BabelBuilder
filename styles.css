@@ -2,26 +2,51 @@ body
 {
 	font-family: Monospace;
 	font-weight: bold;
-	background-color: #ccccff;
+	background-color: skyblue;
 	margin: 0px;
 	overflow: hidden;
 
 }
 
-#greeting {
+div#greeting {
   display: flex;
   justify-content: space-between;
+  flex-grow: 1;
+  padding-top: 0px;
+  border-radius: 36px;
+  background: rgb(64,61,124);
+  background: linear-gradient(90deg, 
+  rgba(94, 16, 89, 0.414) 0%, 
+  rgba(218, 19, 172, 0.555) 16%, 
+  rgba(135, 12, 176, 0.619) 100%);
+  overflow: hidden;
 }
 
-#left {
-  
+
+
+#left {  
+  font-size: 42px;
+  padding-left: 35px;
+  margin-top: 35px;
+;}
+
+div#right {
+    padding-right: 35px;
+    text-align: right;
 }
 
-#right {
-  
+#r-top {
+  margin-left: 98px;
+  margin-bottom: 8px;
+}
+
+#r-bottom {
+  margin-top: 0px;
 }
 
 h1 {
+  font-family: 'VT323', monospace;
   display: flex;
-  font-size: 24px;
+  font-size: 30px;
+  color: white;
 }
