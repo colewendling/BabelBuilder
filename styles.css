@@ -1,0 +1,27 @@
+body 
+{
+	font-family: Monospace;
+	font-weight: bold;
+	background-color: #ccccff;
+	margin: 0px;
+	overflow: hidden;
+
+}
+
+#greeting {
+  display: flex;
+  justify-content: space-between;
+}
+
+#left {
+  
+}
+
+#right {
+  
+}
+
+h1 {
+  display: flex;
+  font-size: 24px;
+}
