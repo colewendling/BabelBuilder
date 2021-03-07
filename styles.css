@@ -8,47 +8,38 @@ body
 
 }
 
-div#greeting {
+#greet {
   display: flex;
-  justify-content: space-between;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
   flex-grow: 1;
-  padding-top: 0px;
-  border-radius: 36px;
-  background: rgb(64,61,124);
-  background: linear-gradient(90deg, 
-  rgba(94, 16, 89, 0.414) 0%, 
-  rgba(218, 19, 172, 0.555) 16%, 
-  rgba(135, 12, 176, 0.619) 100%);
-  overflow: hidden;
-  margin: 35px;
-  box-shadow: 0 14px 6px -6px rgba(119, 119, 119, 0.28);
+  
 }
 
-
-
-#left {  
-  font-size: 42px;
-  padding-left: 35px;
-  margin-top: 35px;
-;}
-
-div#right {
-    padding-right: 35px;
-    text-align: right;
+#greet h1 {
+  display: flex;
+  justify-content: center;
+  margin-top: 5px;
+  margin-bottom: 5px;
 }
 
-#r-top {
-  margin-left: 98px;
-  margin-bottom: 8px;
+#title {
+ font-size: 46px;
+ letter-spacing: 4px;
 }
 
-#r-bottom {
-  margin-top: 0px;
+#clouds {
+  position: absolute;
+  width: 100vw;
+  height: 100vh;
+  opacity: 0.1;
 }
+
 
 h1 {
   font-family: 'VT323', monospace;
   display: flex;
-  font-size: 30px;
+  font-size: 19px;
   color: white;
 }

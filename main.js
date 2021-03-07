@@ -80,7 +80,7 @@ function init() {
   scene = new THREE.Scene();
 
 
-  const density = 0.12;
+  const density = 0.10;
   scene.fog = new THREE.FogExp2(skyBox, density); //-- fog
   scene.background = skyBox;                      //--background
   addBase(0, 0, 1000, 1000);                      // base-layer
