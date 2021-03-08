@@ -22,3 +22,5 @@ Babel Builder is a tower building game where a user must time their placement of
 ### Implementation Timeline:
 * [Implementation Timeline](https://github.com/colewendling/BabelBuilder/wiki/Implementation-Timeline)
 
+### Additional Thanks:
+Babel Builder was inspired by the incredible work of Hunor Márton Borbély and KetchApp, the developers behind the popular mobile game 'Stack'.
