@@ -43,3 +43,82 @@ h1 {
   font-size: 19px;
   color: white;
 }
+
+#button-container {
+  display: flex;
+  justify-content: center;
+}
+
+
+#button-container button {
+  font-family: 'VT323', monospace;
+  font-size: 16px;
+  letter-spacing: 6px;
+  border-bottom-color: rgb(0, 0, 0);
+  border-bottom-left-radius: 24px;
+  border-bottom-right-radius: 24px;
+  border-bottom-style: none;
+  border-bottom-width: 0px;
+  border-image-outset: 0;
+  border-image-repeat: stretch;
+  border-image-slice: 100%;
+  border-image-source: none;
+  border-image-width: 1;
+  border-left-color: rgb(0, 0, 0);
+  border-left-style: none;
+  border-left-width: 0px;
+  border-right-color: rgb(0, 0, 0);
+  border-right-style: none;
+  border-right-width: 0px;
+  border-top-color: rgb(0, 0, 0);
+  border-top-left-radius: 24px;
+  border-top-right-radius: 24px;
+  border-top-style: none;
+  border-top-width: 0px;
+  box-sizing: border-box;
+  color:  #767676;
+  cursor: pointer;
+  display: block;
+  font-stretch: 100%;
+  font-style: normal;
+  font-variant-caps: normal;
+  font-variant-east-asian: normal;
+  font-variant-ligatures: normal;
+  font-variant-numeric: normal;
+  font-weight: 500;
+  height: 40px;
+  letter-spacing: normal;
+  line-height: normal;
+  min-height: 40px;
+  min-width: 60px;
+  padding-bottom: 8px;
+  padding-left: 12px;
+  padding-right: 12px;
+  padding-top: 8px;
+  text-align: center;
+  text-indent: 0px;
+  text-rendering: auto;
+  text-shadow: none;
+  text-size-adjust: 100%;
+  text-transform: none;
+  transition-property: transform;
+  transition-timing-function: ease-out;
+  word-spacing: 0px;
+  writing-mode: horizontal-tb;
+  white-space: nowrap;
+  overflow: hidden;
+  background-color: white;
+  margin: 6px;
+   -webkit-box-shadow: 0 16px 6px -6px rgba(119, 119, 119, 0.28);
+  -moz-box-shadow: 0 16px 6px -6px rgba(119, 119, 119, 0.28);
+  box-shadow: 0 16px 6px -6px rgba(119, 119, 119, 0.28);
+}
+
+#button-container button:hover {
+  color: rgb(51, 51, 51); 
+  filter: brightness(85%);
+  background-color: rgba(149, 220, 233, 0.6);
+  transform: scale(1.1);
+  color: white;
+}
+
