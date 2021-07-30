@@ -9,11 +9,13 @@ body
 }
 
 #greet {
+  /* margin-top: 35px; */
   display: flex;
   flex-direction: column;
   justify-content: center;
   text-align: center;
   flex-grow: 1;
+  /* z-index: 999; */
   
 }
 
@@ -25,6 +27,7 @@ body
 }
 
 #title {
+  margin-top: 35px;
  font-size: 46px;
  letter-spacing: 4px;
 }
@@ -42,6 +45,7 @@ h1 {
   display: flex;
   font-size: 19px;
   color: white;
+  padding-top: 35px;
 }
 
 #button-container {
@@ -112,6 +116,7 @@ h1 {
    -webkit-box-shadow: 0 16px 6px -6px rgba(119, 119, 119, 0.28);
   -moz-box-shadow: 0 16px 6px -6px rgba(119, 119, 119, 0.28);
   box-shadow: 0 16px 6px -6px rgba(119, 119, 119, 0.28);
+  z-index: 999;
 }
 
 #button-container button:hover {
@@ -122,3 +127,17 @@ h1 {
   color: white;
 }
 
+
+#score {
+  display: block;
+  position: absolute;
+  z-index: 100;
+  /* top: 6.5%; */
+  padding-top: 38px;
+  right: 7%;
+  color: white;
+   font-family: 'VT323', monospace;
+  /* display: flex; */
+  font-size: 48px;
+  /* color: rgb(134, 122, 122); */
+}
